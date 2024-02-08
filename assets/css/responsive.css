@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) {
+    /* Header style */
+.logo{
+    width: 130px;
+}
+    .right_perent ul{
+        display: block;
+        display: flex;
+        column-gap: 5px;
+    }
+    .right_perent ul li{
+        padding: 10px 20px;
+        border-radius: 25px;
+         
+    }
+    .right_perent ul li a{
+        font-size: 18px;
+        color: white;
+         
+    }
+    .right_perent span{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    /* header style */
+    .logo{
+        width: 158px;
+    }
+    .right_perent ul{
+        column-gap: 8px;
+    }
+    .right_perent ul li{
+        padding: 10px 25px;
+    }
+    .right_perent ul li a{
+        font-size: 20px;
+    }
+}

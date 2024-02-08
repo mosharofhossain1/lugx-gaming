@@ -1,0 +1,77 @@
+/* Google Fonts Cdn */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+::after,
+::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1270px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 18px;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header section CSS Start */
+header {
+    background-color: #0071F8;
+    padding: 15px 20px;
+}
+
+.logo {
+    width: 110px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_perent {
+    display: flex;
+    align-items: center;
+}
+
+.right_perent ul {
+    display: none;
+}
+.right_perent ul li{
+    transition: .3s;
+}
+#home_bg{
+    background-color: #1A7FF9;
+}
+#sign_in{
+    background-color: #EE626B;
+}
+.right_perent ul li:hover{
+    background-color: #1A7FF9;
+}
+.right_perent ul li a {
+    text-transform: capitalize;
+}
+ 
+.right_perent span {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Header section  CSS End */
